@@ -1,5 +1,6 @@
 from typing import List, Optional
 
+import os
 from .themes import DEFAULT_THEME
 
 
@@ -57,7 +58,7 @@ def create_table(data: List[List[str]], *, theme: Optional[List[str]] = DEFAULT_
 
             row = str(row).ljust(lengths[j])
 
-            if header and i == 0:
+            if header and i == 0 and os.name != 'nt':
                 row = '\033[1m'+row+'\033[0m'
 
             res[-1] += row
