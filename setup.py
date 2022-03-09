@@ -7,6 +7,7 @@ setup(
     author_email='daniel.norhoj@gmail.com',
     description="A tool for easily making text tables in terminal from python lists.",
     packages=["asciitables"],
+    license="GPLv3",
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3",
