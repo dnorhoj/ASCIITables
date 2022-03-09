@@ -1,7 +1,7 @@
 import random
 import string
 
-import asciitables
+import cooltables
 
 data = []
 
@@ -19,11 +19,11 @@ for i in range(ROWS):
 
 
 # Try all themes
-for i in filter(lambda x: "THEME" in x, dir(asciitables)):
+for i in filter(lambda x: "THEME" in x, dir(cooltables)):
     print(f"\n{i}")
-    print(asciitables.create_table(
+    print(cooltables.create_table(
         data,
-        theme=vars(asciitables)[i],
+        theme=vars(cooltables)[i],
         # header=False,
         # separated=True,
     ))

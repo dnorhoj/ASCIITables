@@ -1,13 +1,13 @@
-# ASCIITables
+# CoolTables
 
 Simple tool for making tables, no requirements. Check out example.py
 
 ## Usage
 
-The best way to get started is by using the `asciitables.create_table()` function.
+The best way to get started is by using the `cooltables.create_table()` function.
 
 ```py
-import asciitables
+import cooltables
 
 # Some two dimensional list
 data = [
@@ -16,7 +16,7 @@ data = [
     ["Third", "Row", "data"],
 ]
 
-table = asciitables.create_table(data, theme=asciitables.THIN_THEME)
+table = cooltables.create_table(data, theme=cooltables.THIN_THEME)
 
 print(table)
 ```

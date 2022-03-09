@@ -1,12 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='asciitables',
-    version='0.0.1',
+    name='cooltables',
+    version='0.0.2',
     author='dnorhoj',
     author_email='daniel.norhoj@gmail.com',
     description="A tool for easily making text tables in terminal from python lists.",
-    packages=["asciitables"],
+    long_description=open('README.md', 'r').read(),
+    long_description_content_type="text/markdown",
+    packages=["cooltables"],
     license="GPLv3",
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
