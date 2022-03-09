@@ -10,6 +10,7 @@ setup(
     long_description_content_type="text/markdown",
     packages=["cooltables"],
     license="GPLv3",
+    url="https://github.com/dnorhoj/CoolTables",
     classifiers=[
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Programming Language :: Python :: 3",
